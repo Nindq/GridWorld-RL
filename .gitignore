@@ -1,0 +1,22 @@
+#CMake
+build/
+build-debug/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+MakeFile
+cmake_install.cmake
+
+#Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+#Compiled Files
+*.o
+

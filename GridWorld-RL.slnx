@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="GridWorld RL.vcxproj" Id="a3aa1c50-7b16-4531-a7d2-3fd7d24eff14" />
+</Solution>
