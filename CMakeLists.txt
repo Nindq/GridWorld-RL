@@ -17,7 +17,7 @@ set(PYBIND11_FINDPYTHON ON)
 find_package(pybind11 REQUIRED)
 
 pybind11_add_module(gridworld_module
-	main.cpp
+	bindings.cpp
 )
 
 target_link_libraries(gridworld_module
