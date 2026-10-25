@@ -17,6 +17,14 @@ Release/
 *.vcxproj.filters
 *.vcxproj.user
 
+#VsCode
+.venv/
+
+#Python
+__pycache__/
+
 #Compiled Files
 *.o
-
+*.pyd
+*.pyc
+*.so
