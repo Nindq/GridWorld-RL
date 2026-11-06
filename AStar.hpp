@@ -1,6 +1,7 @@
 #pragma once
 #include "Types.hpp"
 #include <vector>
+#include <array>
 
 struct Node {
     int g{ 0 };
@@ -13,6 +14,6 @@ struct Node {
 
 namespace Pathfinding {
     int calculateManhattanDistance(int idxA, int idxB, int size);
-    std::vector<int> getPassableNeighbors(const std::vector<Cell>& grid, int current_idx, int size);
+    std::array<int, 4> getPassableNeighbors(const std::vector<Cell>& grid, int current_idx, int size);
     std::vector<int> solveAStar(const std::vector<Cell>& grid, int size, int startIdx, int goalIdx);
 }
